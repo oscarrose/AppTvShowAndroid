@@ -33,6 +33,9 @@ namespace FavoritesTvShowApi
                 optiones.UseSqlServer(Configuration.GetConnectionString("favoritesConnection"));
             });
 
+           
+        
+          
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {

@@ -1,0 +1,13 @@
+server the sql
+-------------------------------
+db: favoritesTv
+server: demo-store.database.windows.net
+
+password: password123@
+server admin login: kurama
+---------------------------------
+
+App services
+---------------------------------
+name:ApiFavoriteTvShow
+--------------------------------
