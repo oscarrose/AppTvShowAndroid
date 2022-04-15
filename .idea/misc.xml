@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../../../../home/oscar/Android/Sdk/platforms/android-32/data/res/layout/simple_spinner_dropdown_item.xml" value="0.14764492753623187" />
+        <entry key="../../../../../../../home/oscar/Android/Sdk/platforms/android-32/data/res/layout/simple_spinner_item.xml" value="0.14764492753623187" />
+        <entry key="../../../../../../../layout/custom_preview.xml" value="0.2484375" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2265" />
+        <entry key="app/src/main/res/drawable/arrow_black.xml" value="0.2265" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2265" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.24635416666666668" />
+        <entry key="app/src/main/res/layout/fragment_edit_profile.xml" value="0.24635416666666668" />
+        <entry key="app/src/main/res/layout/fragment_list_favorites.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/fragment_list_tv_shows.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.14764492753623187" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_recover_password.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_registrer_account.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/tvshow_avorite_items.xml" value="0.1852355072463768" />
+        <entry key="app/src/main/res/layout/tvshow_favorite_items.xml" value="0.20244565217391305" />
+        <entry key="app/src/main/res/layout/tvshow_items.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/tvshowlistitems.xml" value="0.14764492753623187" />
+        <entry key="app/src/main/res/menu/bottom_menu.xml" value="0.165" />
+        <entry key="app/src/main/res/menu/menu_edit_profile.xml" value="0.24635416666666668" />
+        <entry key="app/src/main/res/menu/top_app_bar.xml" value="0.24635416666666668" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

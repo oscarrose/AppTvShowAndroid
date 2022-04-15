@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "36568181266",
+    "project_id": "tvshows-ee9d7",
+    "storage_bucket": "tvshows-ee9d7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36568181266:android:54cbcdab0ec204e52786cb",
+        "android_client_info": {
+          "package_name": "com.example.tvshowapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "36568181266-m1p6702qsol8ss2ka87c0u6q6n7hggib.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeWnHnEHFcr6SY2YFl8T5ZYTz-wawkBzo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "36568181266-m1p6702qsol8ss2ka87c0u6q6n7hggib.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
