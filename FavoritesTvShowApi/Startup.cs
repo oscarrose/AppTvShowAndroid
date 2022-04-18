@@ -49,11 +49,22 @@ namespace FavoritesTvShowApi
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
+              {
+                  app.UseDeveloperExceptionPage();
+                  app.UseSwagger();
+                  app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "FavoritesTvShowApi v1"));
+             }
+
+            //for enable the swagger for production
+            if (env.IsProduction())
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "FavoritesTvShowApi v1"));
             }
+          
+
+
 
             app.UseHttpsRedirection();
 

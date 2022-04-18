@@ -41,31 +41,33 @@ namespace FavoritesTvShowApi.Controller
         [HttpPost]
         public async Task<ActionResult<EntitesFavorite>> PostEntitesFavorite(EntitesFavorite entitesFavorite)
         {
+            
             _context.favorites.Add(entitesFavorite);
             await _context.SaveChangesAsync();
 
-            return StatusCode(201);
+            return entitesFavorite;
         }
 
         // DELETE: api/EntitesFavorites/5
-        [HttpDelete("{favoriteId}")]
-        public async Task<IActionResult> DeleteEntitesFavorite(int favoriteId)
+        [HttpDelete("{idTvShow}")]
+        public async Task<IActionResult> DeleteEntitesFavorite(String idTvShow, String idUser)
         {
-            var entitesFavorite = await _context.favorites.FindAsync(favoriteId);
+            var entitesFavorite = await _context.favorites.Where(e => e.idTvShow == idTvShow && e.idUser==idUser).ToListAsync();
+            //await _context.favorites.FindAsync(idTvShow);
             if (entitesFavorite == null)
             {
                 return NotFound();
             }
 
-            _context.favorites.Remove(entitesFavorite);
+            _context.favorites.RemoveRange(entitesFavorite);
             await _context.SaveChangesAsync();
 
             return NoContent();
         }
 
-        private bool EntitesFavoriteExists(int id)
+        private bool EntitesFavoriteExists(string id)
         {
-            return _context.favorites.Any(e => e.idFavorites == id);
+            return _context.favorites.Any(e => e.idTvShow ==id );
         }
     }
 }
